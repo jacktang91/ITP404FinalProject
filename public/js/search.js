@@ -8,7 +8,7 @@ $("#form").submit(function(){
         var searchTerm = $("#searchbox").val();
 
         $.ajax({
-        url: 'search',
+        url: 'movies/search',
         data: {
                 searchTerm: searchTerm
         },
